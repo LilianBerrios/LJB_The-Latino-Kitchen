@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <style>
+            p {
+                color: white;
+                text-align: center;
+                font-size: 35px; 
+           }
+
+           li {
+            display: inline;
+            font-size: 25px;
+            margin-inline: 15px;
+            text-align: center;
+       }
+
+       nav {
+        text-align:center;
+        border: 4px solid black;
+        background-size: 50%;
+        background-image: url(https://garden.spoonflower.com/c/9506797/p/f/m/48wmJfl1PHr0HgelnwzOlj7ELYrmyV_I1_8qQ-nIaloKXhdyI0Q/Plain%20Solid%20Dark%20Gray.jpg);
+        position: sticky;
+        top: 0;
+       }
+
+       ul > li > a {
+        color: white;
+       }
+
+       h2 {
+        font-size: 35px
+       }
+
+       h3 {
+        font-size: 25px
+       }
+
+       .ingredients {
+        display: list-item;
+        text-align: start;
+       }
+
+       .steps {
+        display: list-item;
+        text-align: start;
+       }
+
+       .ending {
+        font-size: 40px;
+       }
+
+       .note {
+        font-size: 20px;
+        color: black;
+       }
+
+        </style>
+    </head>
+
+    <nav>
+        <div class="logo">
+            <p>The Latino Kitchen</p>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Meals.html">MEALS</a></li>
+            <li><a href="Desserts.html">DESSERTS</a></li>
+            <li><a href="Drinks.html">DRINKS</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+<h1><center>Flan Recipe!</center></h1>
+<p class="note">This is an original family recipe that my abuela would make for my abuelo and the whole family. She would proudly make this dish at almost every family event.</p>
+
+<img style=float:right; src="data:image/jpeg;base64,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"; height="500"; width= "600";/>
+    <h2>Ingredients:</h2>
+        <ul>
+            <li class="ingredients">5 eggs</li>
+            <li class="ingredients">1 can of condensed milk</li>
+            <li class="ingredients">1 can of evaporated milk</li>
+            <li class="ingredients">1 tsp of vanilla extract</li>
+            <li class="ingredients">1 teaspoon of salt</li>
+            <li class="ingredients">1 cup of white sugar</li>
+            <li class="ingredients">1 cup of water</li>
+        </ul>
+
+    <h3>Steps:</h3>
+    <p3> 
+        <ol>
+            <li class="steps">First, mix all ingredients in a blender.</li>
+            <li class="steps">In a pan, mix one cup of white sugar and one cup of water. Then increase the heat slowly, stirring until it changes color and turns pale yellow. Do not let it caramelize, because then the syrup will taste bitter.</li>
+            <li class="steps">Now, prepare the mold. The metal mold could be circular or rectangular. TIP: Circular flans are the most popular!</li>
+            <li class="steps">Next, pour the contents of the pan into the mold and move so that the sugar is covering the side as well. Then, put the contents of the blender on top.</li>
+            <li class="steps">Fill a metal or glass container halfway with water. Put the mold in the container and then in the oven. Put for at least one hour at 350&#8457.</li>
+            <li class="steps">After that, it should be done. Put the mold in the fridge for a few hours. Until it fully cools down.</li>
+            <li class="steps">TIP: You can cut it inside the mold or take it out. To turn it over and put it on a platter.</li>
+        </ol>
+    </p3>
+<h4 class="ending">&#161;Buen provecho!</h4>
+
+</body>
+</html>
